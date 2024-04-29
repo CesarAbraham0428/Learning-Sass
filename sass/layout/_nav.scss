@@ -1,0 +1,11 @@
+@import "../theme/variables";
+.navbar{
+
+    &__a{
+        color:$color-nav-text;
+
+        &:hover{
+            color: $color-nav-text-hover;
+        }
+    }
+}

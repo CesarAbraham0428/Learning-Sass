@@ -28,11 +28,29 @@ li {
   list-style: none;
 }
 
-.navbar {
+.container {
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+.header {
+  position: sticky;
+  top: 0;
   display: flex;
-  gap: 2rem;
-  justify-content: space-evenly;
-  background-color: lightblue;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 5rem;
+  background-color: #342305;
+}
+.header__p {
+  color: #f0f0f0;
+}
+
+.navbar__a {
+  color: #f0f0f0;
+}
+.navbar__a:hover {
+  color: #342375;
 }
 
 /*# sourceMappingURL=styles.css.map */
